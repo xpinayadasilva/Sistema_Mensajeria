@@ -1,0 +1,121 @@
+  * {
+    font-family: "Roboto", open sans-regular;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-content {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .seccion-principal {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    border-right: 1px solid #ddd;
+  }
+  
+  .usuario-conectado {
+    height: 9vh;
+  }
+  
+  .datos-usuario-conectado {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    
+  }
+  
+  .datos-usuario-conectado img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .iconos-usuario {
+    display: flex;
+    gap: 10px;
+    margin-left: auto; 
+}
+
+.iconos-usuario i {
+    font-size: 1.2rem;
+    color: #777;
+    cursor: pointer;
+}
+
+
+  .btn-chat {
+    height: 10%;
+    text-align: center;
+    margin: 1rem ;
+    padding:  1rem;
+  }
+  
+  .btn-chat button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #a491d2;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lista-contactos {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  .nombre-usuario-conectado {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+.status-usuario-conectado {
+    font-size: small;
+    color: #777;
+}
+
+.texto-usuario {
+  display: flex;
+  flex-direction: column;
+}
+  
+  .seccion-central {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f7f7f7; 
+  }
+
+  .seccion-central img{
+    width: 15vw;
+    border-radius: 5%;
+    margin-bottom: 3%;
+  }
+  
+  .texto-central {
+    text-align: center;
+  }
+  
+  .texto-central h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .texto-central p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
